@@ -1,8 +1,8 @@
 import React from 'react'
-
+import My_router from './My_router'
 function App() {
   return (
-    <div>App</div>
+    <My_router />
   )
 }
 
