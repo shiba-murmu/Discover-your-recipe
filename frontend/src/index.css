@@ -9,3 +9,9 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Defining universal variables  */
+:root {
+    --universal-dark-bg: #0f0f0f;
+    --universal-light-bg: #1f1f1f;
+}

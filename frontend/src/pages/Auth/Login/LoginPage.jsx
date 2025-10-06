@@ -3,9 +3,9 @@ import React from 'react'
 function LoginPage() {
   return (
     <>
-        <div className='h-screen flex justify-center items-center bg-gray-900'>
-           <div className='text-white font-bold text-3xl'>
-                login page
+        <div className='h-screen flex justify-center items-center bg-[var(--universal-dark-bg)]'>
+           <div>
+
            </div>
         </div>
     </>
