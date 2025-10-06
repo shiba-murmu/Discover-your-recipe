@@ -13,5 +13,6 @@
 /* Defining universal variables  */
 :root {
     --universal-dark-bg: #0f0f0f;
-    --universal-light-bg: #1f1f1f;
+    --universal-dark-bg-2: #242424;
+    --universal-light-bg: #181818;
 }
