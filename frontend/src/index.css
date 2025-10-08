@@ -1,4 +1,7 @@
 @import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
 /* Universal css : --->  */
 
 /* // <weight>: Use a value from 300 to 900 */
