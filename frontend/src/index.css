@@ -11,6 +11,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 /* Defining universal variables  */
@@ -18,4 +19,27 @@
     --universal-dark-bg: #0f0f0f;
     --universal-dark-bg-2: #242424;
     --universal-light-bg: #181818;
+
+    --light-dark-green : #0b2e32;
+    --light-dark-green-2 : #507d82;
+    --lightest-white : #94b1b5;
+    --lightest-bluish : #b7e4ea;
+
+    --dark-darker-black : #2b2b2b;
+    --dark-lighter-gray : #b3b3b3;
+    --dark-more-lighter-gray : #d4d4d4;
+    --dark-white : #ffffff;
 }
+
+
+/* colors in light mode :  */
+/* #0b2e32 for darker green */
+/* #507d82 for light green */
+/* #94b1b5 for lightest white */
+/* #b7e4ea for lightest bluish */
+
+/* color for dark mode  */
+/* #2b2b2b for darker black */
+/* #b3b3b3 for lighter gray */
+/* #d4d4d4 for more lighter gray */
+/* #ffffff for white */

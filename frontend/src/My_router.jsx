@@ -1,18 +1,25 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route , Link } from 'react-router-dom';
+import { Routes, Route , Link , useLocation } from 'react-router-dom';
 
 //.............................pages path importation here......................
 import LoginPage from './pages/Auth/Login/LoginPage';
+import Navigation_bar from './components/Header/Navigation_bar';
+import Profile from './pages/Profile/Profile';
 // .............................................................................
 
 function My_router() {
+    const location = useLocation();
+
+    const hideNavbarRoutes = ["/",]; // Add routes where you want to hide the navbar
+    const shouldHideNavbar = hideNavbarRoutes.includes(location.pathname);
   return (
     <>
-        <BrowserRouter>
+            {/* public routes */}
+            {!shouldHideNavbar && <Navigation_bar />}
             <Routes>
                 <Route path="/" element={<LoginPage />} />
+                <Route path='/profile' element={<Profile />} />
             </Routes>
-        </BrowserRouter>
     </>
   )
 }
