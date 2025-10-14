@@ -6,8 +6,11 @@ function Landing_page() {
     return (
         <>
             <div className='min-h-screen w-full'>
-                <div>
+                <div className='h-96 bg-amber-100'>
                     {/* side by scroll bar animation here. on moving images. */}
+                    <div>
+                        <img src={''} alt="" />
+                    </div>
                 </div>
                 <div>
                     {/* This one is other div */}
