@@ -22,9 +22,7 @@ function My_router() {
             <Routes>
                 <Route path="login" element={<LoginPage />} />
                 <Route path='/profile' element={<Profile />} />
-                {/* <Route path='/signuo' element={<Signup />} */}
-                <Route path='/signup' element={<Signup_page />}
-
+                <Route path='/signup' element={<Signup_page />} />
                 <Route path='/' element={<Landing_page />} />
             </Routes>
         </>
