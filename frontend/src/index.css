@@ -1,12 +1,14 @@
 @import "tailwindcss";
 
-
 @custom-variant dark (&:where(.dark, .dark *));
 /* Universal css : --->  */
 
 /* // <weight>: Use a value from 300 to 900 */
 /* // <uniquifier>: Use a unique and descriptive class name */
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -16,12 +18,12 @@
 
 /* Defining universal variables  */
 :root {
-    /* For light theme color palette */
-    --primary-color: #4caf50;
-    --secondary-color: #ff5722;
-    --text-color: #212121;
-    --background-color: #fafafa;
-    /* for night theme color base-palette: ; */
+  /* For light theme color palette */
+  --primary-color: #4caf50;
+  --secondary-color: #ff5722;
+  --text-color: #212121;
+  --background-color: #fafafa;
+  /* for night theme color base-palette: ; */
 }
 
 /* In your index.css or global.css */
@@ -29,6 +31,6 @@
   display: none;
 }
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
