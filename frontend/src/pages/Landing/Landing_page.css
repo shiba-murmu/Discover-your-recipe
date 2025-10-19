@@ -1,0 +1,16 @@
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* covers the whole image area */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 10), transparent); */
+}
+
+div[style*="background-image"] {
+  transition: opacity 1.5s ease-in-out, transform 6s ease-in-out;
+}
+.opacity-100 {
+  transform: scale(1.05);
+}
