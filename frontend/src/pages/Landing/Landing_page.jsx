@@ -64,7 +64,7 @@ function GetStartedNavigation() {
     return (
         <>
             <div>
-                <button className="bg-green-100 py-2 px-4 rounded">Get Started</button>
+                <a className="bg-green-100 py-4 px-4 rounded">Get Started</a>
             </div>
         </>
     )
