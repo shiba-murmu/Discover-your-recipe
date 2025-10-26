@@ -4,8 +4,10 @@ import { BrowserRouter } from 'react-router-dom';
 function App() {
     return (
         <BrowserRouter>
-        {/* This element is used to wrap the entire app */}
-            <My_router />
+            {/* This element is used to wrap the entire app */}
+            <div className='text-md md:text-lg'>
+                <My_router />
+            </div>
         </BrowserRouter>
     )
 }
