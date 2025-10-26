@@ -49,7 +49,7 @@ function Landing_page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col h-[20vh] md:h-[50vh] items-center justify-center">
                     < Redirect_button />
                 </div>
             </div>
