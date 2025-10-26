@@ -17,3 +17,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 Food delivery web application only different foods available...
+
+Color : 
+button light mode : bg-green-100
