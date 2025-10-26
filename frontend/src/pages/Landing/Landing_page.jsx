@@ -48,7 +48,7 @@ function Landing_page() {
                                 < Redirect_button />
                             </div> */}
                             <Link className='inline-block text-md  px-7 py-2 rounded-md font-semibold hover:bg-gray-100
-                            hover:text-black transition duration-300 border border-gray-400 ease-in-out' to="/login">
+                            hover:text-black transition duration-300 border border-gray-400 ease-in-out' to="/home">
                                 Get Started
                             </Link>
                         </div>

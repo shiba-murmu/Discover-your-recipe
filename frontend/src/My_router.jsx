@@ -7,6 +7,7 @@ import Navigation_bar from './components/Header/Navigation_bar';
 import Profile from './pages/Profile/Profile';
 import Landing_page from './pages/Landing/Landing_page';
 import Signup_page from './pages/Auth/Signup/Signup_page';
+import Home_page from './pages/Home/Home_page';
 
 // .............................................................................
 
@@ -20,9 +21,10 @@ function My_router() {
             {/* public routes */}
             {!shouldHideNavbar && <Navigation_bar />}
             <Routes>
-                <Route path="login" element={<LoginPage />} />
+                <Route path="/login" element={<LoginPage />} />
                 <Route path='/profile' element={<Profile />} />
                 <Route path='/signup' element={<Signup_page />} />
+                <Route path='/home' element={<Home_page />} />
                 <Route path='/' element={<Landing_page />} />
             </Routes>
         </>

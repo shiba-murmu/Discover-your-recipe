@@ -6,6 +6,7 @@ function LoginPage() {
         <>
             <div className='min-h-screen flex items-center justify-center  dark:bg-[var(--universal-dark-bg)]'>
                 {/* <DarkModeToggle /> */}
+                Loginpage
             </div>
         </>
     )
