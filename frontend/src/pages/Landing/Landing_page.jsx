@@ -4,6 +4,7 @@ import food_2 from "../../assets/food2.png";
 import larger_screen from "../../assets/larger_screen_food.jpg";
 import larger_screen_2 from "../../assets/large_food_2.jpg";
 import "./Landing_page.css";
+import Redirect_button from "../../components/RedirectButton/Redirect_button";
 
 function Landing_page() {
     // ✅ Imported images
@@ -48,8 +49,8 @@ function Landing_page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col h-[10vh] items-center justify-center">
-                    < GetStartedNavigation />
+                <div className="flex flex-col items-center justify-center">
+                    < Redirect_button />
                 </div>
             </div>
         </>
@@ -57,15 +58,4 @@ function Landing_page() {
     );
 }
 
-export default Landing_page;
-
-
-function GetStartedNavigation() {
-    return (
-        <>
-            <div>
-                <a className="bg-green-100 py-4 px-4 rounded">Get Started</a>
-            </div>
-        </>
-    )
-}
+export default Landing_page
