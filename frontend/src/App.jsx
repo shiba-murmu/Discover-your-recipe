@@ -5,7 +5,7 @@ function App() {
     return (
         <BrowserRouter>
             {/* This element is used to wrap the entire app */}
-            <div className='text-md text-gray-700 md:text-lg'>
+            <div className='text-md text-gray-700 dark:text-white md:text-lg'>
                 <My_router />
             </div>
         </BrowserRouter>
