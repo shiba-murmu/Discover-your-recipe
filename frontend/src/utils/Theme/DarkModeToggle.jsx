@@ -36,7 +36,7 @@ export default function DarkModeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className=""
+      className="cursor-pointer"
     >
       {
         theme === "light" ? (
