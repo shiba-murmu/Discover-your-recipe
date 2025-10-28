@@ -8,6 +8,7 @@ import Profile from './pages/Profile/Profile';
 import Landing_page from './pages/Landing/Landing_page';
 import Signup_page from './pages/Auth/Signup/Signup_page';
 import Home_page from './pages/Home/Home_page';
+import Recipes_post from './pages/Recipes/Recipes_post';
 
 // .............................................................................
 
@@ -21,6 +22,7 @@ function My_router() {
             {/* public routes */}
             {!shouldHideNavbar && <Navigation_bar />}
             <Routes>
+                <Route path='/recipe-post' element={<Recipes_post />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path='/profile' element={<Profile />} />
                 <Route path='/signup' element={<Signup_page />} />

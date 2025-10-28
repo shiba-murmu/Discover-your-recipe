@@ -23,15 +23,23 @@ export default function Navigation_bar() {
     }, []);
 
     return (
-        <nav className="bg-green-100 dark:bg-gray-900  shadow-md fixed w-full top-0 left-0 z-50">
+        <nav className="bg-green-100  dark:bg-gray-900  shadow-md relative w-full top-0 left-0 z-50">
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
                 <div className="text-2xl font-Bold text-green-600"> 🍴 FoodVerse</div>
 
                 {/* 🌐 Desktop Menu */}
                 <ul className="hidden md:flex md:items-center md:justify-center space-x-8 font-medium">
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Home</li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Recipes</li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to={'/home'}>
+                            Home
+                        </Link>
+                    </li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to={'/recipe-post'}>
+                            Recipes
+                        </Link>
+                    </li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Community</li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">About</li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Contact</li>
@@ -62,7 +70,11 @@ export default function Navigation_bar() {
                             Home
                         </Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Recipes</li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to='/recipe-post'>
+                            Recipe
+                        </Link>
+                    </li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Community</li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">About</li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Contact</li>
