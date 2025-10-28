@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home_page() {
   return (
-    <div className='min-h-screen flex items-center justify-center dark:bg-gray-800'>Home_page</div>
+    <div className='min-h-screen flex items-center justify-center'>Home_page</div>
   )
 }
 
