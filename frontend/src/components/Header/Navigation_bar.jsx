@@ -45,8 +45,16 @@ export default function Navigation_bar() {
                             Community
                         </Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">About</li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Contact</li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to={'/about'}>
+                            About
+                        </Link>
+                    </li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to={'/contact'}>
+                            Contact
+                        </Link>
+                    </li>
                     <li className="flex items-center justify-center">
                         <DarkModeToggle />
                     </li>
@@ -84,8 +92,16 @@ export default function Navigation_bar() {
                             Community
                         </Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">About</li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Contact</li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to={'/about'}>
+                            About
+                        </Link>
+                    </li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to={'/contact'}>
+                            Contact
+                        </Link>
+                    </li>
                     <li>
                         <DarkModeToggle />
                     </li>
