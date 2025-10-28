@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import DarkModeToggle from "../../utils/Theme/DarkModeToggle";
 export default function Navigation_bar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +40,11 @@ export default function Navigation_bar() {
                             Recipes
                         </Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Community</li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to={'/community'}>
+                            Community
+                        </Link>
+                    </li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">About</li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Contact</li>
                     <li className="flex items-center justify-center">
@@ -75,7 +79,11 @@ export default function Navigation_bar() {
                             Recipe
                         </Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Community</li>
+                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                        <Link to={'/community'}>
+                            Community
+                        </Link>
+                    </li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">About</li>
                     <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">Contact</li>
                     <li>
