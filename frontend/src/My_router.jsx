@@ -21,6 +21,8 @@ function My_router() {
 
     const hideNavbarRoutes = ["/", '/login', '/signup']; // Add routes where you want to hide the navbar
     const shouldHideNavbar = hideNavbarRoutes.includes(location.pathname);
+    const hideFooterRoutes = ["/"]; // Add routes where you want to hide the footer
+    const shouldHideFooter = hideFooterRoutes.includes(location.pathname);
     return (
         <>
             {/* public routes */}
@@ -36,7 +38,7 @@ function My_router() {
                 <Route path='/home' element={<Home_page />} />
                 <Route path='/' element={<Landing_page />} />
             </Routes>
-            <Footer_page />
+            {!shouldHideFooter && <Footer_page />}
         </>
     )
 }
