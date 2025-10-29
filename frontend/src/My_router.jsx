@@ -12,6 +12,7 @@ import Recipes_post from './pages/Recipes/Recipes_post';
 import Community_page from './pages/Community/CommunityPage/Community_page';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
+import Footer_page from './components/Footer/Footer_page';
 
 // .............................................................................
 
@@ -35,6 +36,7 @@ function My_router() {
                 <Route path='/home' element={<Home_page />} />
                 <Route path='/' element={<Landing_page />} />
             </Routes>
+            <Footer_page />
         </>
     )
 }
