@@ -32,7 +32,7 @@ export default function Navigation_bar() {
     return (
         <nav className="bg-[#4F7C83] text-white dark:bg-gray-900 shadow-md fixed w-full  top-0 left-0 h-17  md:h-16 z-50">
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-                <div className="text-2xl font-bolder text-gray-800">🍴 FoodieMedia</div>
+                <div className="text-2xl font-bolder dark:text-blue-400">🍴 FoodieMedia</div>
 
                 {/* 🌐 Desktop Menu */}
                 <ul className="hidden md:flex md:items-center md:justify-center space-x-8 font-medium">
@@ -79,7 +79,7 @@ export default function Navigation_bar() {
             {/* 📋 Mobile Dropdown */}
             <div
                 ref={menuRef}
-                className={`md:hidden fixed w-full bg-green-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-900 shadow-md transition-all duration-500 ${isOpen
+                className={`md:hidden  fixed w-full bg-[#4F7C83] dark:bg-gray-900 border-t border-gray-400 dark:border-gray-500 shadow-md transition-all duration-500 ${isOpen
                     ? "max-h-96 opacity-100"
                     : "max-h-0 opacity-0 overflow-hidden"
                     }`}
