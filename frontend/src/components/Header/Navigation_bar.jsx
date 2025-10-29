@@ -56,7 +56,7 @@ export default function Navigation_bar() {
                     </li>
 
                     <li className="hover:text-green-600 bg-red-400 w-8 h-8 rounded-full cursor-pointer flex items-center justify-center">
-                        <Link to={'/login'}>
+                        <Link to={'/profile'}>
                             <img
                                 src={profile_img}
                                 className="rounded-full object-cover h-8 w-8"
@@ -89,7 +89,7 @@ export default function Navigation_bar() {
                         className="hover:text-green-600 cursor-pointer"
                         onClick={handleMenuItemClick}
                     >
-                        <Link to="/login">Profile</Link>
+                        <Link to="/profile">Profile</Link>
                     </li>
                     <li
                         className="hover:text-green-600 cursor-pointer"
