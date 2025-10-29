@@ -24,6 +24,9 @@ function Profile() {
 export default Profile;
 
 function UserPosts() {
+    // This function is used here to show user posts in grid format
+    // The posts are hardcoded for demonstration purposes
+    // In a real application, you would fetch this data from a server
     return (
         <>
             <div className='grid grid-cols-3 md:grid-cols-5 gap-2 md:gap-4 p-2 md:p-4'>
