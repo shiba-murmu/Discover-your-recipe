@@ -2,7 +2,11 @@ import React from 'react'
 
 function Home_page() {
   return (
-    <div className=' flex items-center justify-center'>Home_page</div>
+   <>
+        <div className='mt-17 md:mt-16'>
+            Home page
+        </div>
+   </>
   )
 }
 
