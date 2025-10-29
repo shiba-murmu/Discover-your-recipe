@@ -89,6 +89,12 @@ export default function Navigation_bar() {
                         className="hover:text-green-600 cursor-pointer"
                         onClick={handleMenuItemClick}
                     >
+                        <Link to="/profile">Profile</Link>
+                    </li>
+                    <li
+                        className="hover:text-green-600 cursor-pointer"
+                        onClick={handleMenuItemClick}
+                    >
                         <Link to="/home">Home</Link>
                     </li>
                     <li
