@@ -14,7 +14,7 @@ function LoginPage() {
                     <p className='text-center mb-8'>Login to continue to your foodie journey!</p>
                 </div>
                 <button className='bg-blue-300 cursor-pointer px-6 py-2 rounded-md hover:bg-blue-400 hover:text-white transition duration-300'>Login with Google</button>
-            </div>
+            </div> 
         </>
     )
 }
