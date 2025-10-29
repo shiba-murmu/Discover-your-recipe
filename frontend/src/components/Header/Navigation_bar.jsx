@@ -122,7 +122,7 @@ export default function Navigation_bar() {
                         <Link to="/contact">Contact</Link>
                     </li>
 
-                    <li>
+                    <li onClick={handleMenuItemClick}>
                         <DarkModeToggle />
                     </li>
                 </ul>
