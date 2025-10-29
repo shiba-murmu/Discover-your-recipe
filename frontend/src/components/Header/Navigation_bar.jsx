@@ -54,12 +54,15 @@ export default function Navigation_bar() {
                     <li className="flex items-center justify-center">
                         <DarkModeToggle />
                     </li>
+
                     <li className="hover:text-green-600 bg-red-400 w-8 h-8 rounded-full cursor-pointer flex items-center justify-center">
-                        <img
-                            src={profile_img}
-                            className="rounded-full object-cover h-8 w-8"
-                            alt=""
-                        />
+                        <Link to={'/profile'}>
+                            <img
+                                src={profile_img}
+                                className="rounded-full object-cover h-8 w-8"
+                                alt=""
+                            />
+                        </Link>
                     </li>
                 </ul>
 
@@ -77,8 +80,8 @@ export default function Navigation_bar() {
             <div
                 ref={menuRef}
                 className={`md:hidden fixed w-full bg-green-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-900 shadow-md transition-all duration-500 ${isOpen
-                        ? "max-h-96 opacity-100"
-                        : "max-h-0 opacity-0 overflow-hidden"
+                    ? "max-h-96 opacity-100"
+                    : "max-h-0 opacity-0 overflow-hidden"
                     }`}
             >
                 <ul className="flex flex-col items-center space-y-4 py-4 font-medium">
