@@ -4,7 +4,13 @@ function Recipes_post() {
   return (
     <>
         <div className='mt-17 md:mt-16'>
-            Recipe page is also updated.
+            <div>
+                Headings for recipes from different part of the world
+            </div>
+            <div>
+                container for the particulat recipes.
+            </div>
+            
         </div>
     </>
   )
