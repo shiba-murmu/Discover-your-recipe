@@ -13,6 +13,11 @@
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
+.font-bolder {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
 /* Defining universal variables  */
 :root {
   /* For light theme color palette */
