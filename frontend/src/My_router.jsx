@@ -24,7 +24,7 @@ function My_router() {
         <>
             {/* public routes */}
             {!shouldHideNavbar && <Navigation_bar />}
-            <Routes>
+            <Routes >
                 <Route path='/contact' element={< Contact />} />
                 <Route path='/About' element={<About />} />
                 <Route path='/community' element={<Community_page />} />

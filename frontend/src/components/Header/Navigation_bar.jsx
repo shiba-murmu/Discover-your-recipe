@@ -30,7 +30,7 @@ export default function Navigation_bar() {
     };
 
     return (
-        <nav className="bg-green-100 dark:bg-gray-900 shadow-md relative w-full top-0 left-0 z-50">
+        <nav className="bg-green-100 dark:bg-gray-900 shadow-md fixed w-full  top-0 left-0 h-17  md:h-16 z-50">
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
                 <div className="text-2xl font-bold text-green-600">🍴 FoodieMedia</div>
 
