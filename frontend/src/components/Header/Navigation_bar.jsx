@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import DarkModeToggle from "../../utils/Theme/DarkModeToggle";
-import profile_img from "../../assets/food.png";
+import profile_img from "../../assets/nullUser.png";
 
 export default function Navigation_bar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -59,7 +59,7 @@ export default function Navigation_bar() {
                         <Link to={'/profile'}>
                             <img
                                 src={profile_img}
-                                className="rounded-full object-cover h-8 w-8"
+                                className="rounded-full object-center h-8 w-8"
                                 alt=""
                             />
                         </Link>

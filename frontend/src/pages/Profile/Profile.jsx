@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../../assets/food.png'
+import profile from '../../assets/nullUser.png'
 function Profile() {
     return (
         <>
