@@ -52,7 +52,7 @@ function Landing_page() {
                                 Get Started
                             </Link>
                         </div>
-                        <div className="absolute z-20 bottom-15 md:bottom-20 max-w-2xl text-center px-4 md:px-0 text-sm md:text-lg font-normal">
+                        <div className="absolute  z-20 bottom-15 md:bottom-8 max-w-2xl text-center px-4 md:px-0 text-sm md:text-lg font-light">
                             {/* Pending text will be added here. */}
                             <p>
                                 A global platform where anyone can share their recipes, explore diverse cuisines, and connect with a community of food lovers.
