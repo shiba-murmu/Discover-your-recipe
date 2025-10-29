@@ -55,7 +55,7 @@ export default function Navigation_bar() {
                         <DarkModeToggle />
                     </li>
 
-                    <li className="hover:text-green-600 bg-red-400 w-8 h-8 rounded-full cursor-pointer flex items-center justify-center">
+                    <li className="hover:text-green-600 w-8 h-8 rounded-full cursor-pointer flex items-center justify-center">
                         <Link to={'/profile'}>
                             <img
                                 src={profile_img}
