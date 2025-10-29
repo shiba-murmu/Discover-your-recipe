@@ -20,3 +20,6 @@ Food delivery web application only different foods available...
 
 Color : 
 button light mode : bg-green-100
+
+navbar div height added : h-17 for mobile view and h-16 for desktop view 
+below div have to add the top margin as per the navbar height.
