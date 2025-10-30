@@ -9,20 +9,39 @@ function Footer_page() {
     }
     return (
         <>
-            <div className='w-full h-[70vh] md:h-[70vh]  bg-[#0B2E33] dark:bg-[#101828] text-white p-4 pt-20 md:pt-20'>
+            <div className='w-full h-[90vh] md:h-[70vh]  bg-[#0B2E33] dark:bg-[#101828] text-white pl-4 pt-14 md:pt-20'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                    <div className='flex flex-col gap-4 md:pl-15'>
+                    <div className='flex flex-col gap-7 md:gap-1 md:pl-15'>
                         <div className='flex items-center justify-start gap-3 md:pb-5 md:flex md:items-center md:gap-3'>
                             <img src={brand_icons} className='md:h-10 md:w-10 h-10 object-cover' alt="" />
                             <span className='text-3xl dark:text-blue-400 font-bolder'>FOODIEMEDIA</span>
                         </div>
                         <div className='md:mb-10 '>
                             <p className='md:w-96'>
-                                Empowering Food Lovers Everywhere and Connecting Culinary Enthusiasts Worldwide.
+                                A global community where food lovers share and discover recipes.
                                 People who love food and cooking.
                             </p>
                         </div>
-                        <div className='flex gap-4 md:mb-10'>
+                        <div className='md:hidden grid grid-col-2 gap-2'>
+                            <div className='flex flex-col '>
+                                <ul className='space-y-4 md:space-y-4'>
+                                    <li>Home</li>
+                                    <li>Recipe</li>
+                                    <li>Community</li>
+                                    <li>About</li>
+                                    <li>Contact</li>
+                                </ul>
+                            </div>
+                            <div className='mt-3'>
+                                <p className='text-amber-500'>
+                                    Legal terms and conditions privacy policy
+                                </p>
+                            </div>
+                            <div className='mt-3'>
+                                <p className='text-amber-500'>@ 2025 FoodieMedia. All rights reserved.</p>
+                            </div>
+                        </div>
+                        <div className='flex gap-6 md:mb-10'>
                             <div>
                                 <a href="https://www.facebook.com/foodiemedia2023" target='_blank'>
                                     <svg className='h-8' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><rect fill="#3d5a98" x="4.83" y="4.83" width="118.35" height="118.35" rx="6.53" ry="6.53" /><path fill="#fff" d="M86.48 123.17V77.34h15.38l2.3-17.86H86.48v-11.4c0-5.17 1.44-8.7 8.85-8.7h9.46v-16A126.56 126.56 0 0091 22.7c-13.62 0-23 8.3-23 23.61v13.17H52.62v17.86H68v45.83z" /></svg>
@@ -52,18 +71,23 @@ function Footer_page() {
                             </button>
                         </div>
                     </div>
-                    <div className='grid grid-col-2'>
+                    <div className='hidden md:block grid grid-col-2'>
                         <div className='flex flex-col '>
-                            <ul className='gap-5'>
+                            <ul className='space-y-2 md:space-y-4'>
                                 <li>Home</li>
                                 <li>Recipe</li>
                                 <li>Community</li>
-                                <li>About</li> 
+                                <li>About</li>
                                 <li>Contact</li>
                             </ul>
                         </div>
-                        <div>
-                            Legal terms and conditions privacy policy
+                        <div className='mt-3'>
+                            <p className='text-amber-500'>
+                                Legal terms and conditions privacy policy
+                            </p>
+                        </div>
+                        <div className='mt-3'>
+                            <p className='text-amber-500'>@ 2025 FoodieMedia. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
