@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import brand_icons from '../../assets/icons/icons.png'
 import instagram_icon from '../../assets/icons/insta.png'
+
+
+
 function Footer_page() {
     const goToTop = () => {
         // this function here to scroll to top of the page
@@ -9,7 +12,7 @@ function Footer_page() {
     }
     return (
         <>
-            <div className='w-full h-[90vh] md:h-[70vh]  bg-[#0B2E33] dark:bg-[#101828] text-white pl-4 pt-14 md:pt-20'>
+            <div className='w-full h-[95vh] md:h-[70vh]  bg-[#0B2E33] dark:bg-[#101828] text-white pl-4 pt-14 md:pt-20'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                     <div className='flex flex-col gap-7 md:gap-1 md:pl-15'>
                         <div className='flex items-center justify-start gap-3 md:pb-5 md:flex md:items-center md:gap-3'>
@@ -23,15 +26,36 @@ function Footer_page() {
                             </p>
                         </div>
                         <div className='md:hidden grid grid-col-2 gap-2'>
-                            <div className='flex flex-col '>
-                                <ul className='space-y-4 md:space-y-4'>
-                                    <li>Home</li>
-                                    <li>Recipe</li>
-                                    <li>Community</li>
-                                    <li>About</li>
-                                    <li>Contact</li>
+                            <div className="flex flex-col">
+                                <ul className="">
+                                    <li>
+                                        <Link to="/home" className="block py-2 hover:text-blue-600">
+                                            Home
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/recipe-post" className="block py-2 hover:text-blue-600">
+                                            Recipes
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/community" className="block py-2 hover:text-blue-600">
+                                            Community
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/about" className="block py-2 hover:text-blue-600">
+                                            About
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/contact" className="block py-2 hover:text-blue-600">
+                                            Contact
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
+
                             <div className='mt-3'>
                                 <p className='text-amber-500'>
                                     Legal terms and conditions privacy policy
@@ -74,11 +98,29 @@ function Footer_page() {
                     <div className='hidden md:block grid grid-col-2'>
                         <div className='flex flex-col '>
                             <ul className='space-y-2 md:space-y-4'>
-                                <li>Home</li>
-                                <li>Recipe</li>
-                                <li>Community</li>
-                                <li>About</li>
-                                <li>Contact</li>
+                                <li>
+                                    <Link to="/home">
+                                        Home
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/recipe-post">
+                                        Recipes
+                                    </Link>
+                                </li>
+                                <li><Link to={'/community'}>
+                                    Community
+                                </Link></li>
+                                <li>
+                                    <Link to={'/about'}>
+                                        About
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={'/contact'}>
+                                        Contact
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                         <div className='mt-3'>

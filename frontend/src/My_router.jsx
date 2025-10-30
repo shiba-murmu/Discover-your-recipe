@@ -13,6 +13,7 @@ import Community_page from './pages/Community/CommunityPage/Community_page';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import Footer_page from './components/Footer/Footer_page';
+import ScrollToTopRoutesChange from './utils/Routes_Changing/ScrollToTopRoutesChange';
 
 // .............................................................................
 
@@ -25,6 +26,8 @@ function My_router() {
     const shouldHideFooter = hideFooterRoutes.includes(location.pathname);
     return (
         <>
+            {/* Scroll to top whenever routes changes.. */}
+            <ScrollToTopRoutesChange />
             {/* public routes */}
             {!shouldHideNavbar && <Navigation_bar />}
             <Routes >
