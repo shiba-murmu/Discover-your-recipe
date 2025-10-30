@@ -9,12 +9,12 @@ function Footer_page() {
     }
     return (
         <>
-            <div className='w-full h-[70vh] md:h-[70vh]  bg-[#0B2E33] text-white p-4 pt-20 md:pt-20'>
+            <div className='w-full h-[70vh] md:h-[70vh]  bg-[#0B2E33] dark:bg-[#101828] text-white p-4 pt-20 md:pt-20'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                     <div className='flex flex-col gap-4 md:pl-15'>
                         <div className='flex items-center justify-start gap-3 md:pb-5 md:flex md:items-center md:gap-3'>
                             <img src={brand_icons} className='md:h-10 md:w-10 h-10 object-cover' alt="" />
-                            <span className='text-3xl'>FOODIEMEDIA</span>
+                            <span className='text-3xl dark:text-blue-400 font-bolder'>FOODIEMEDIA</span>
                         </div>
                         <div className='md:mb-10 '>
                             <p className='md:w-96'>
@@ -47,7 +47,7 @@ function Footer_page() {
                             </div>
                         </div>
                         <div>
-                            <button onClick={goToTop} className='bg-[#256D6B] px-4 py-2 rounded-md hover:bg-[#1e5554] cursor-pointer'>
+                            <button onClick={goToTop} className='bg-[#256D6B] dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-2 rounded-md hover:bg-[#1e5554] cursor-pointer'>
                                 back to top
                             </button>
                         </div>
