@@ -36,26 +36,26 @@ export default function Navigation_bar() {
 
                 {/* 🌐 Desktop Menu */}
                 <ul className="hidden md:flex md:items-center md:justify-center space-x-8 font-medium">
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                    <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] cursor-pointer flex items-center justify-center">
                         <Link to="/home">Home</Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                    <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] cursor-pointer flex items-center justify-center">
                         <Link to="/recipe-post">Recipes</Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                    <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] cursor-pointer flex items-center justify-center">
                         <Link to="/community">Community</Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                    <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] cursor-pointer flex items-center justify-center">
                         <Link to="/about">About</Link>
                     </li>
-                    <li className="hover:text-green-600 cursor-pointer flex items-center justify-center">
+                    <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] cursor-pointer flex items-center justify-center">
                         <Link to="/contact">Contact</Link>
                     </li>
                     <li className="flex items-center justify-center">
                         <DarkModeToggle />
                     </li>
 
-                    <li className="hover:text-green-600 w-8 h-8 rounded-full cursor-pointer flex items-center justify-center">
+                    <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] w-8 h-8 rounded-full cursor-pointer flex items-center justify-center">
                         <Link to={'/profile'}>
                             <img
                                 src={profile_img}
