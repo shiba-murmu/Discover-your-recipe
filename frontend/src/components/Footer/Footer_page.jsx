@@ -52,8 +52,15 @@ function Footer_page() {
                             </button>
                         </div>
                     </div>
-                    <div>
-                        <div className='flex'>
+                    <div className='grid grid-col-2'>
+                        <div className='flex flex-col '>
+                            <ul className='gap-5'>
+                                <li>Home</li>
+                                <li>Recipe</li>
+                                <li>Community</li>
+                                <li>About</li> 
+                                <li>Contact</li>
+                            </ul>
                         </div>
                         <div>
                             Legal terms and conditions privacy policy
