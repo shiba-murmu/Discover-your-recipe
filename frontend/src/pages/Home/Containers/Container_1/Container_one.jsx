@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel_slider from '../../../../components/Slider/Carousel_slider'
-import Food from '../../../../assets/food.png'
+import Food from '../../../../assets/larger_screen_food.jpg'
 import Food2 from '../../../../assets/food2.png'
 import Food3 from '../../../../assets/large_food_2.jpg'
 function Container_one() {

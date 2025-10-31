@@ -1,0 +1,9 @@
+.image_over_trans {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* covers the whole image area */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 10), transparent); */
+}
