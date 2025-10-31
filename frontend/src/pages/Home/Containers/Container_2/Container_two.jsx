@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade_slider from '../../../../components/Slider/Fade_slider'
 
 function Container_two() {
     return (
@@ -20,7 +21,7 @@ function Container_two() {
                     </p>
                 </div>
 
-                <div className='bg-green-600 p-4 md:p-8 text-white rounded-lg flex flex-col justify-center gap-4'>
+                <div className=' p-4 md:p-8 rounded-lg flex flex-col justify-center gap-4'>
                     <h2 className='text-2xl font-bolder'>Our Mission</h2>
                     <p>
                         At <span className="font-semibold text-amber-600">FoodieMedia Recipes</span>, our mission is to
@@ -34,6 +35,10 @@ function Container_two() {
                         improve your cooking skills, or simply connect with like-minded food lovers, FoodieMedia Recipes is here to support you every step of the way.
                     </p>
                 </div>
+            </div>
+
+            <div>
+                <Fade_slider />
             </div>
         </>
     )
