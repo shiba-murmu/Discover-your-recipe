@@ -7,21 +7,21 @@ function Container_one() {
     return (
         <>
             <Carousel_slider sliding_speed={3000}>
-                <div className="relative w-full h-[250px] md:h-[500px]">
+                <div className="relative w-full h-[250px] md:h-[600px]">
                     <img
                         src={Food}
                         alt="Slide 1"
                         className="w-full h-full object-cover"
                     />
                 </div>
-                <div className="relative w-full h-[250px] md:h-[500px]">
+                <div className="relative w-full h-[250px] md:h-[600px]">
                     <img
                         src={Food2}
                         alt="Slide 2"
                         className="w-full h-full object-cover"
                     />
                 </div>
-                <div className="relative w-full h-[250px] md:h-[500px]">
+                <div className="relative w-full h-[250px] md:h-[600px]">
                     <img
                         src={Food3}
                         alt="Slide 3"
