@@ -23,7 +23,7 @@ export default function Carousel_slider({children , sliding_speed}) {
   };
 
   return (
-    <div className=" mx-auto ">
+    <div className="mx-auto ">
       <Slider {...settings}>
         {children}
       </Slider>
