@@ -1,3 +1,8 @@
+
+// This is imported here to apply slick carousel styles globally
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import React from 'react'
 import My_router from './My_router'
 import { BrowserRouter } from 'react-router-dom';
