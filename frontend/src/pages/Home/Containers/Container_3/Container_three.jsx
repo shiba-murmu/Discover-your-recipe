@@ -8,6 +8,9 @@ import { useNavigate } from 'react-router-dom'
 
 
 function Container_three() {
+    // This div will show the trending dishes...
+    // This component is designed in grid container one side will show the fade slider images 
+    // and another side will show the information for the dishes of the image.
     const navigate = useNavigate();
     const handleDiscoverClick = () => {
         navigate('/community');
