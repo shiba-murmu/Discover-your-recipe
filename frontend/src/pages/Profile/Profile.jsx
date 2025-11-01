@@ -5,7 +5,7 @@ function Profile() {
         <>
             <div className='mt-17 md:mt-16 min-h-screen flex flex-col items-center justify-start'>
                 <div className='h-40 md:h-80 w-full flex items-center justify-center gap-10  md:justify-start' >
-                    <img src={profile} className='h-30 w-30 md:h-40 md:w-40 object-cover md:ml-50 border-3 border-green-600 dark:border-amber-50 rounded-full ' alt="" />
+                    <img src={profile} className='h-30 w-30 md:h-40 md:w-40 object-cover md:ml-50 border-3 border-yellow-600 dark:border-amber-50 rounded-full ' alt="" />
                     <div className='hidden md:block'>
                         <h1 className='text-2xl font-extrabold'>No Name </h1>
                         <h4>Posts  :  5</h4>
