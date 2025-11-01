@@ -1,6 +1,7 @@
 import React from 'react'
 import Container_one from './Containers/Container_1/Container_one'
 import Container_two from './Containers/Container_2/Container_two'
+import Container_three from './Containers/Container_3/Container_three'
 
 function Home_page() {
     // Homepage container here : This will use the component from the different 
@@ -15,6 +16,10 @@ function Home_page() {
             </div>
             <div id='container-2'>
                 < Container_two />
+            </div>
+            <div id='container-3'>
+                {/* < Container_three /> */}
+                < Container_three />
             </div>
         </div>
    </>
