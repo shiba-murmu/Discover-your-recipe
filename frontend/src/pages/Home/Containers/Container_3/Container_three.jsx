@@ -4,6 +4,9 @@ import img2 from '../../../../assets/image/static/png_type/2.png'
 import img3 from '../../../../assets/image/static/png_type/3.png'
 import img4 from '../../../../assets/image/static/png_type/4.png'
 import img5 from '../../../../assets/image/static/png_type/5.png'
+import img6 from '../../../../assets/image/static/png_type/6.png'
+
+
 
 import Fade_slider from '../../../../components/Slider/Fade_slider'
 import { useNavigate } from 'react-router-dom'
@@ -14,6 +17,15 @@ function Container_three() {
     // This component is designed in grid container one side will show the fade slider images 
     // and another side will show the information for the dishes of the image.
     const navigate = useNavigate();
+    const images = [
+        img1,
+        img2,
+        img3,
+        img4,
+        img5,
+        img6
+        
+    ]
     const handleDiscoverClick = () => {
         navigate('/community');
     };
@@ -26,7 +38,7 @@ function Container_three() {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 w-full h-auto px-5 md:px-20'>
                     <div className='w-full h-[400px] md:h-[80vh] flex justify-center items-center'>
                         <Fade_slider>
-                            {[img1, img2, img3, img4, img5].map((imgSrc, index) => (
+                            {images.map((imgSrc, index) => (
                                 <div key={index} className='w-full h-[400px] md:h-[80vh] flex justify-center items-center'>
                                     <img src={imgSrc} alt={`Slide ${index + 1}`} className='w-auto h-full object-contain' />
                                 </div>
@@ -42,7 +54,7 @@ function Container_three() {
                         </p>
 
                         <p className='text-md md:text-xl text-white'>Join our community of food lovers and share your culinary creations with us!</p>
-                        <button onClick={handleDiscoverClick} className='bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-4 rounded mt-5'>Discover Now</button>
+                        <button onClick={handleDiscoverClick} className='bg-amber-600 cursor-pointer  hover:bg-amber-700 text-white font-semibold py-2 px-4 rounded mt-5'>Discover Now</button>
                     </div>
                 </div>
             </div>
