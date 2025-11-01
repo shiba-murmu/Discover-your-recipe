@@ -4,6 +4,7 @@ import Food from '../../../../assets/larger_screen_food.jpg'
 import Food2 from '../../../../assets/food2.png'
 import Food3 from '../../../../assets/large_food_2.jpg'
 function Container_one() {
+    // This component is sliding the images in the screen'
     return (
         <>
             <Carousel_slider sliding_speed={3000}>

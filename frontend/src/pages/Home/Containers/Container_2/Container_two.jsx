@@ -44,25 +44,25 @@ function Container_two() {
                 <div className='p-0 md:p-0 rounded-lg flex flex-col justify-start gap-4'>
                     {/* Right section content */}
                     <Fade_slider>
-                        <div className="relative w-full h-[250px] md:h-[400px]">
+                        <div className="relative w-full   h-[250px] md:h-[400px]">
                             <img
                                 src={Food}
                                 alt="Slide 1"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-lg md:rounded-2xl  object-cover"
                             />
                         </div>
-                        <div className="relative w-full h-[250px] md:h-[400px]">
+                        <div className="relative w-full   h-[250px] md:h-[400px]">
                             <img
                                 src={Food2}
                                 alt="Slide 2"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-lg md:rounded-2xl  object-cover"
                             />
                         </div>
-                        <div className="relative w-full h-[250px] md:h-[400px]">
+                        <div className="relative w-full   h-[250px] md:h-[400px]">
                             <img
                                 src={Food3}
                                 alt="Slide 3"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-lg md:rounded-2xl  object-cover"
                             />
                         </div>
                     </Fade_slider>
@@ -82,8 +82,8 @@ export default Container_two
 function Second_container() {
     return (
         <>
-            <div className='grid grid-cols-1   md:grid-cols-2 gap-6 p-4 md:p-16'>
-                <div className='p-0 md:p-0 rounded-lg flex flex-col justify-start gap-4 order-2 md:order-1'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 p-4 md:p-16'>
+                <div className='p-0 md:p-0  flex flex-col justify-start gap-4 order-2 md:order-1'>
                     {/* First section */}
                     <Fade_slider>
                         <div className="relative w-full h-[250px] md:h-[400px]">
