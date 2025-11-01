@@ -90,21 +90,21 @@ function Second_container() {
                             <img
                                 src={Food}
                                 alt="Slide 1"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-lg md:rounded-2xl  object-cover"
                             />
                         </div>
                         <div className="relative w-full h-[250px] md:h-[400px]">
                             <img
                                 src={Food2}
                                 alt="Slide 2"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-lg md:rounded-2xl  object-cover"
                             />
                         </div>
                         <div className="relative w-full h-[250px] md:h-[400px]">
                             <img
                                 src={Food3}
                                 alt="Slide 3"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-lg md:rounded-2xl  object-cover"
                             />
                         </div>
                     </Fade_slider>

@@ -3,6 +3,8 @@ import img1 from '../../../../assets/image/static/png_type/1.png'
 import img2 from '../../../../assets/image/static/png_type/2.png'
 import img3 from '../../../../assets/image/static/png_type/3.png'
 import img4 from '../../../../assets/image/static/png_type/4.png'
+import img5 from '../../../../assets/image/static/png_type/5.png'
+
 import Fade_slider from '../../../../components/Slider/Fade_slider'
 import { useNavigate } from 'react-router-dom'
 
@@ -24,7 +26,7 @@ function Container_three() {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 w-full h-auto px-5 md:px-20'>
                     <div className='w-full h-[400px] md:h-[80vh] flex justify-center items-center'>
                         <Fade_slider>
-                            {[img1, img2, img3, img4].map((imgSrc, index) => (
+                            {[img1, img2, img3, img4, img5].map((imgSrc, index) => (
                                 <div key={index} className='w-full h-[400px] md:h-[80vh] flex justify-center items-center'>
                                     <img src={imgSrc} alt={`Slide ${index + 1}`} className='w-auto h-full object-contain' />
                                 </div>
