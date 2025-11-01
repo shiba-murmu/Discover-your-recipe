@@ -12,7 +12,7 @@ function Profile() {
                     </div>
                 </div>
                 <div className='md:hidden mb-5 h-10 flex flex-col'>
-                    <h1 className='text-xl font-extrabold'>Shiba Murmu</h1>
+                    <h1 className='text-xl font-extrabold'>Your name</h1>
                     <h3 className='text-center'>Posts : 5</h3>
                 </div>
                 < UserPosts />
