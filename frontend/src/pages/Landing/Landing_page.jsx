@@ -43,7 +43,6 @@ function Landing_page() {
                         Start your culinary journey today!
                     </p>
                 </div>
-
             </div>
         </>
     )

@@ -40,6 +40,9 @@ export default function Navigation_bar() {
                         <Link to="/home">Home</Link>
                     </li>
                     <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] cursor-pointer flex items-center justify-center">
+                        <Link to="/post">Post</Link>
+                    </li>
+                    <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] cursor-pointer flex items-center justify-center">
                         <Link to="/recipe-post">Recipes</Link>
                     </li>
                     <li className="dark:hover:text-blue-400 hover:text-[#0b2e33] cursor-pointer flex items-center justify-center">
@@ -96,6 +99,12 @@ export default function Navigation_bar() {
                         onClick={handleMenuItemClick}
                     >
                         <Link to="/home">Home</Link>
+                    </li>
+                    <li
+                        className="hover:text-green-600 cursor-pointer"
+                        onClick={handleMenuItemClick}
+                    >
+                        <Link to="/post">Post</Link>
                     </li>
                     <li
                         className="hover:text-green-600 cursor-pointer"

@@ -14,6 +14,7 @@ import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import Footer_page from './components/Footer/Footer_page';
 import ScrollToTopRoutesChange from './utils/Routes_Changing/ScrollToTopRoutesChange';
+import Post from './pages/Posting/Post';
 
 // .............................................................................
 
@@ -32,6 +33,7 @@ function My_router() {
             {!shouldHideNavbar && <Navigation_bar />}
             <Routes >
                 <Route path='/contact' element={< Contact />} />
+                <Route path='/post' element={<Post />} />
                 <Route path='/About' element={<About />} />
                 <Route path='/community' element={<Community_page />} />
                 <Route path='/recipe-post' element={<Recipes_post />} />
