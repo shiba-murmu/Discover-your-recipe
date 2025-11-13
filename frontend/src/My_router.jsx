@@ -15,6 +15,7 @@ import About from './pages/About/About';
 import Footer_page from './components/Footer/Footer_page';
 import ScrollToTopRoutesChange from './utils/Routes_Changing/ScrollToTopRoutesChange';
 import Post from './pages/Posting/Post';
+import Locations_based_recipe from './pages/Location_based/Locations_based_recipe';
 
 // .............................................................................
 
@@ -42,6 +43,7 @@ function My_router() {
                 <Route path='/signup' element={<Signup_page />} />
                 <Route path='/home' element={<Home_page />} />
                 <Route path='/' element={<Landing_page />} />
+                <Route path='/location/:recipeLocationName' element={<Locations_based_recipe />} />
             </Routes>
             {!shouldHideFooter && <Footer_page />}
         </>
