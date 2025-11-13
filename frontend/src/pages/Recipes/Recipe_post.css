@@ -1,0 +1,7 @@
+.card_background {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(1px);
+  /* border-radius: 10px; */
+  padding: 10px;
+  /* background: linear-gradient(135deg, #f6d365 0%, #fad0c4 100%); */
+}
